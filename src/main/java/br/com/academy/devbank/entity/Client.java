@@ -47,5 +47,7 @@ public class Client implements Serializable {
 	@Column(name = "PASSWORD")
 	private String password;
 	
+	@OneToMany(mappedBy = "client", fetch = FetchType.LAZY)
+	private List<Account> account;
 
 }
