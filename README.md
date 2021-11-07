@@ -35,7 +35,7 @@ H2 Database - Banco de Dados relacional em memória para testes
 Insomnia - Para realizar as requisições HTTPs
 Swagger - Documentação dos Endpoints da API
 
-## Rodando a Aplicaçãp
+## Rodando a Aplicação
 
 Faça uma cópia do projeto para seu computador:
 
