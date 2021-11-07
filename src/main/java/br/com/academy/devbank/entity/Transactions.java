@@ -26,7 +26,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "TRANSACTIONS")
-public class Transactions Serializable {
+public class Transactions implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 
