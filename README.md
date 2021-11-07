@@ -29,12 +29,12 @@ histórico de transações entre as contas deve ser registrado.
 
 Utilizamos abaixo algumas tecnologias para o desenvolvimento deste projeto tais como:
 
-<a href="https://trello.com/b/POKeOJoX/blue-academy-ibm">Trello</a> - Para gerenciar as tarefas de acordo com datas de entregas e prioridades
-SpringBoot - Framework para desenvolvimento da API
-Java - Linguagem de programação que foi desenvolvida ao longo do curso
-H2 Database - Banco de Dados relacional em memória para testes
-Insomnia - Para realizar as requisições HTTPs
-Swagger - Documentação dos Endpoints da API
+<a href="https://trello.com/b/POKeOJoX/blue-academy-ibm">Trello</a> - Para gerenciar as tarefas de acordo com datas de entregas e prioridades<br>
+SpringBoot - Framework para desenvolvimento da API<br>
+Java - Linguagem de programação que foi desenvolvida ao longo do curso<br>
+H2 Database - Banco de Dados relacional em memória para testes<br>
+Insomnia - Para realizar as requisições HTTPs<br>
+Swagger - Documentação dos Endpoints da API<br>
 
 ## Rodando a Aplicação
 
