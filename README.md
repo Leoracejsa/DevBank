@@ -28,7 +28,8 @@ histórico de transações entre as contas deve ser registrado.
 ## Tecnologias Utilizadas no Projeto
 
 Utilizamos abaixo algumas tecnologias para o desenvolvimento deste projeto tais como:
-Trello - Para gerenciar as tarefas de acordo com datas de entregas e prioridades
+
+<a href="https://trello.com/b/POKeOJoX/blue-academy-ibm">Trello</a> - Para gerenciar as tarefas de acordo com datas de entregas e prioridades
 SpringBoot - Framework para desenvolvimento da API
 Java - Linguagem de programação que foi desenvolvida ao longo do curso
 H2 Database - Banco de Dados relacional em memória para testes
