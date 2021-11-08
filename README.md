@@ -95,7 +95,7 @@ SELECT * FROM CLIENT
 ![image](https://user-images.githubusercontent.com/6587097/140747832-ada984e2-1722-42a3-803a-a12657aeb8db.png)
 
 SELECT * FROM TRANSACTIONS 
-![image](https://user-images.githubusercontent.com/6587097/140747907-67d4455c-fa69-4bcd-9b06-b89c2cccaba2.png)
+![image](https://user-images.githubusercontent.com/6587097/140756926-0de6e20d-8c1d-4644-a1e2-0a8b0cb86ef9.png)
 
 
 
