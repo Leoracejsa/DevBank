@@ -39,6 +39,12 @@ public class Transactions implements Serializable {
 	@Column(name = "DESCRIBLE")
 	private String describle;
 	
+	@Column(name = "ACCOUNTSOURCE")
+	private Integer accountSource;
+	
+	@Column(name = "ACCOUNTDESTINY")
+	private Integer accountdestiny;
+	
 	@Column(name = "VALUETRANSACTION")
 	private BigDecimal valueTransaction;
 
