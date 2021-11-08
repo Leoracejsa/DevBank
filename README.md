@@ -45,6 +45,9 @@ Compilando e rodando o projeto:
 
 Acesse o projeto por uma IDE de sua preferência: ECLIPSE, VSCODE etc.
 
+## Documentação da API(endpoints)
+http://localhost:8080/swagger-ui/index.html#/
+
 ## Endpoints a Aplicação
 
 Inserir 1 cliente:
