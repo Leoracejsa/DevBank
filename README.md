@@ -91,8 +91,10 @@ Abaixo encontra-se os dados inseridos diretamente da aplicação
 SELECT * FROM ACCOUNT 
 ![image](https://user-images.githubusercontent.com/6587097/140747732-3de07e6f-4e80-4d99-9bc2-dc0005f46f21.png)
 
+
 SELECT * FROM CLIENT 
 ![image](https://user-images.githubusercontent.com/6587097/140747832-ada984e2-1722-42a3-803a-a12657aeb8db.png)
+
 
 SELECT * FROM TRANSACTIONS 
 ![image](https://user-images.githubusercontent.com/6587097/140756926-0de6e20d-8c1d-4644-a1e2-0a8b0cb86ef9.png)
