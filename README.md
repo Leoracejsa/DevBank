@@ -15,7 +15,7 @@ Projeto Final do programa IBM Blue Academy <a href="https://ibmblueacademy.corpo
 <div id='projeto'/>
 <br>
 
-## 💻 Sobre o Desafio
+## 💻 Sobre o Projeto
 
 O banco fictício BlueBank está construindo uma nova plataforma e precisa de
 uma API para gerenciar as transações. Utilize suas novas habilidades com Spring Boot e
@@ -31,9 +31,6 @@ Utilizamos abaixo algumas tecnologias para o desenvolvimento deste projeto tais 
 
 <a href="https://trello.com/b/POKeOJoX/blue-academy-ibm">Trello</a> - Para gerenciar as tarefas de acordo com datas de entregas e prioridades<br>
 <a href="https://spring.io/">SpringBoot</a> - Framework para desenvolvimento da API<br>
-<a href="https://www.oracle.com/java/technologies/downloads/#java11">Java</a> - Linguagem de programação que foi desenvolvida ao longo do curso<br>
-<a href="http://www.h2database.com/html/main.html">H2 Database</a> - Banco de Dados relacional em memória para testes <br>
-<a href="https://insomnia.rest/download">Insomnia</a> - Para realizar as requisições HTTPs<br>
 <a href="https://swagger.io/tools/swagger-ui">Swagger</a> - Documentação dos Endpoints da API<br>
 
 ## Rodando a Aplicação
@@ -47,5 +44,33 @@ $ git clone https://github.com/Leoracejsa/DevBank
 Compilando e rodando o projeto:
 
 Acesse o projeto por uma IDE de sua preferência: ECLIPSE, VSCODE etc.
+
+## Endpoints a Aplicação
+
+Inserir 1 cliente:
+http://localhost:8080/client/insert
+
+Retorna 1 único cliente:
+http://localhost:8080/client/findbyId/1
+
+Retorna lista de clientes:
+http://localhost:8080/client/findAllClient
+
+Retorna 1 única conta:
+http://localhost:8080/account/1
+
+Retorna lista de contas:
+http://localhost:8080/account/findAll
+
+Envia 1 transferência entre contas:
+http://localhost:8080/account/transferAccounts
+
+Retornando 1 número de conta:
+http://localhost:8080/account/numberAccount/8963
+
+
+
+
+
 
 
