@@ -79,6 +79,11 @@ Retornando 1 número de conta:
 http://localhost:8080/account/numberAccount/8963
 ![image](https://user-images.githubusercontent.com/6587097/140747572-077933d7-2e72-4190-ba69-bc4a552cd1f8.png)
 
+Retornando histórico de transações:
+http://localhost:8080/historyTransactions/findAll
+![image](https://user-images.githubusercontent.com/6587097/140756640-16844539-3bdb-4c38-a92a-d575d45a0fdd.png)
+
+
 ## Banco de Dados em Memória 
 
 Abaixo encontra-se os dados inseridos diretamente da aplicação
