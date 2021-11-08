@@ -92,17 +92,7 @@ SELECT * FROM ACCOUNT
 ![image](https://user-images.githubusercontent.com/6587097/140747732-3de07e6f-4e80-4d99-9bc2-dc0005f46f21.png)
 
 SELECT * FROM CLIENT 
-![image](https://user-images.githubusercontent.com/6587097/140747832-ada984e2-1722-42a3-803a-a12657aeb8db.png)
+![image](https://user-images.githubusercontent.com/6587097/140757334-d0f9c827-82e1-4223-8414-ca537afafa64.png)
 
 SELECT * FROM TRANSACTIONS 
-![image](https://user-images.githubusercontent.com/6587097/140756926-0de6e20d-8c1d-4644-a1e2-0a8b0cb86ef9.png)
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/6587097/140757415-5cba991e-56d9-4290-bb9c-db8b821f1941.png)
