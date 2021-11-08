@@ -57,18 +57,43 @@ http://localhost:8080/client/findbyId/1
 
 Retorna lista de clientes:
 http://localhost:8080/client/findAllClient
+![image](https://user-images.githubusercontent.com/6587097/140747371-bc8151bc-f8f7-40b4-9123-d1cd7cbc4ff8.png)
+
 
 Retorna 1 única conta:
 http://localhost:8080/account/1
+![image](https://user-images.githubusercontent.com/6587097/140747425-3be6d4f3-3999-4537-9d3a-eab8268cde7d.png)
+
 
 Retorna lista de contas:
 http://localhost:8080/account/findAll
+![image](https://user-images.githubusercontent.com/6587097/140747471-30b432b4-2a3f-4f0b-a374-ce033ec0832a.png)
+
 
 Envia 1 transferência entre contas:
 http://localhost:8080/account/transferAccounts
+![image](https://user-images.githubusercontent.com/6587097/140747522-1b16b35a-cba5-43cf-9aeb-11f70728b745.png)
+
 
 Retornando 1 número de conta:
 http://localhost:8080/account/numberAccount/8963
+![image](https://user-images.githubusercontent.com/6587097/140747572-077933d7-2e72-4190-ba69-bc4a552cd1f8.png)
+
+## Banco de Dados em Memória 
+
+Abaixo encontra-se os dados inseridos diretamente da aplicação
+
+SELECT * FROM ACCOUNT 
+![image](https://user-images.githubusercontent.com/6587097/140747732-3de07e6f-4e80-4d99-9bc2-dc0005f46f21.png)
+
+SELECT * FROM CLIENT 
+![image](https://user-images.githubusercontent.com/6587097/140747832-ada984e2-1722-42a3-803a-a12657aeb8db.png)
+
+SELECT * FROM TRANSACTIONS 
+![image](https://user-images.githubusercontent.com/6587097/140747907-67d4455c-fa69-4bcd-9b06-b89c2cccaba2.png)
+
+
+
 
 
 
