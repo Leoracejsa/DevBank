@@ -29,7 +29,7 @@ public class ClientService {
 	
 	public Client findById(Integer id) {
 		return clientRepository.findById(id)
-				.orElseThrow(() -> new EntityNotFoundException("Cliente Não Encontrado" + id));
+				.orElseThrow(() -> new EntityNotFoundException("Customer Not Found" + id));
 	}
 
 

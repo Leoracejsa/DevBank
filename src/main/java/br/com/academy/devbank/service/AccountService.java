@@ -29,29 +29,40 @@ public class AccountService {
 	
 	public Account findById(Integer id) {	
 		return accountRepository.findById(id).orElseThrow(() -> 
-		new EntityNotFoundException("Conta id numero " + id + "não encontrada")
+		new EntityNotFoundException("Account id number " + id + "not found")
 				) ;
 	}
 
 	public Account findByNumberAccount(Integer numberAccount) {
 		return accountRepository.findByNumberAccount(numberAccount)
-				.orElseThrow(() -> new EntityNotFoundException("Numero de conta não Existe " + numberAccount));
+				.orElseThrow(() -> new EntityNotFoundException("Account number does not exist " + numberAccount));
 	}
 	
 	public TransferInAccountsDTO transfer(TransferInAccountsDTO transfer) {
-		Account origem = findByNumberAccount(transfer.getNumberAccountOrigin());
-		Account destiny = findByNumberAccount(transfer.getNumberAccountOriginRecipient());	
 		
-		origem.setAccountBalance(origem.getAccountBalance().subtract(transfer.getTransferValue()));		
-		destiny.setAccountBalance(destiny.getAccountBalance().add(transfer.getTransferValue()));		
-		updateValue(origem);
-		updateValue(destiny);
-		TransferInAccountsDTO tranferSucess = new TransferInAccountsDTO();
-		tranferSucess.setNumberAccountOrigin(origem.getNumberAccount());
-		tranferSucess.setNumberAccountOrigin(destiny.getNumberAccount());
-		tranferSucess.setTransferValue(tranferSucess.getTransferValue());
-		tranferSucess.setMessage("Tranferencia Realizada Com Sucesso");		
-		return tranferSucess; 
+		TransferInAccountsDTO tranferSuccess = new TransferInAccountsDTO();
+		Account origem = findByNumberAccount(transfer.getNumberAccountOrigin());
+		Account destiny = findByNumberAccount(transfer.getNumberAccountOriginRecipient());
+		
+		if(!(transfer.getTransferValue().compareTo(origem.getAccountBalance()) > 0)) {
+		
+			origem.setAccountBalance(origem.getAccountBalance().subtract(transfer.getTransferValue()));		
+			destiny.setAccountBalance(destiny.getAccountBalance().add(transfer.getTransferValue()));		
+			updateValue(origem);
+			updateValue(destiny);
+			TransferInAccountsDTO tranferSucess = new TransferInAccountsDTO();
+			tranferSucess.setNumberAccountOrigin(origem.getNumberAccount());
+			tranferSucess.setNumberAccountOrigin(destiny.getNumberAccount());
+			tranferSucess.setTransferValue(tranferSucess.getTransferValue());
+			tranferSucess.setMessage("Transfer performed successfully");	
+			return tranferSuccess; 
+		}else {
+			transfer.setNumberAccountOrigin(origem.getNumberAccount());
+			transfer.setNumberAccountOriginRecipient(destiny.getNumberAccount());
+			transfer.setTransferValue(transfer.getTransferValue());
+			transfer.setMessage("You have insufficient account balance");
+		}
+		return tranferSuccess; 
 	}	
 	
 
