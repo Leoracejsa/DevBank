@@ -52,6 +52,8 @@ http://localhost:8080/client/insert
 
 Retorna 1 único cliente:
 http://localhost:8080/client/findbyId/1
+![image](https://user-images.githubusercontent.com/6587097/140747247-470f2695-91f1-44bd-ad19-0edb24e8b3cf.png)
+
 
 Retorna lista de clientes:
 http://localhost:8080/client/findAllClient
