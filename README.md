@@ -34,7 +34,7 @@ Utilizamos abaixo algumas tecnologias para o desenvolvimento deste projeto tais 
 <a href="https://www.oracle.com/java/technologies/downloads/#java11">Java</a> - Linguagem de programação que foi desenvolvida ao longo do curso<br>
 <a href="http://www.h2database.com/html/main.html">H2 Database</a> - Banco de Dados relacional em memória para testes <br>
 <a href="https://insomnia.rest/download">Insomnia</a> - Para realizar as requisições HTTPs<br>
-<a href"https://swagger.io/tools/swagger-ui/">Swagger</a> - Documentação dos Endpoints da API<br>
+<a href="https://swagger.io/tools/swagger-ui">Swagger</a> - Documentação dos Endpoints da API<br>
 
 ## Rodando a Aplicação
 
