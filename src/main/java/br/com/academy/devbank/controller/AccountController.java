@@ -38,7 +38,7 @@ public class AccountController {
 		return ResponseEntity.ok().body(accountService.transfer(transfer));
 	}
 
-	@GetMapping(value = "/numberAccount/{id}")
+	@GetMapping(value = "/numberAccount/{numberAccount}")
 	public Account findByNumberAccount(@PathVariable Integer numberAccount) {
 		return accountService.findByNumberAccount(numberAccount);
 	}

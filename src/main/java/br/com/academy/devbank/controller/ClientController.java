@@ -32,7 +32,7 @@ public class ClientController {
 		return ResponseEntity.ok().body(clientService.findAll()); 
 	}
 
-	
+	@GetMapping(value = "/findbyId/{id}")
 	public ResponseEntity<Client> findbyId(@PathVariable Integer id) {		
 		Client client = clientService.findById(id);
 		return ResponseEntity.ok().body(client);
