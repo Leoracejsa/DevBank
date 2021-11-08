@@ -5,6 +5,8 @@
 # Spring Boot e Spring DataJPA. - Banco BlueBank - DevBank
 
 Projeto Final do programa IBM Blue Academy <a href="https://ibmblueacademy.corporate.gama.academy/"> BLUE ACADEMY power by Gama Academy </a>.
+ 
+ Cristovão Lima - Leo Ahmed - Washington Santos
 
 </div><br>
 
